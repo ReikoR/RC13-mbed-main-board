@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RC13-BLDC-DRIVER">
+<wire x1="0" y1="0" x2="48" y2="0" width="0.127" layer="51"/>
+<wire x1="48" y1="0" x2="48" y2="30" width="0.127" layer="51"/>
+<wire x1="48" y1="30" x2="0" y2="30" width="0.127" layer="51"/>
+<wire x1="0" y1="30" x2="0" y2="0" width="0.127" layer="51"/>
+<pad name="LOGIC7" x="10.835" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC8" x="12.105" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC9" x="13.375" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC10" x="14.645" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC11" x="15.915" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC12" x="17.185" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC6" x="9.565" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC5" x="8.295" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC4" x="7.025" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC3" x="5.755" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC2" x="4.485" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC1" x="3.215" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="PWR5" x="39.535" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR6" x="38.265" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR4" x="40.805" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR3" x="42.075" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR2" x="43.345" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR1" x="44.615" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR7" x="36.995" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR8" x="35.725" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR9" x="34.455" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR10" x="33.185" y="1.83" drill="0.8" diameter="1.3"/>
+<hole x="1.4" y="26" drill="1.2"/>
+<hole x="46.4" y="2.6" drill="1.2"/>
+<text x="23.7" y="16.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="23.7" y="15.4" size="1.27" layer="25" align="top-center">&gt;VALUE</text>
+<text x="9" y="22" size="1.27" layer="51" align="top-center">LOGIC</text>
+<text x="39.1" y="6.4" size="1.27" layer="51" align="bottom-center">PWR</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RC13-BLDC-DRIVER">
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<pin name="GNDL1" x="-17.78" y="12.7" visible="pin" length="middle" direction="pwr"/>
+<pin name="GNDL2" x="-17.78" y="10.16" visible="pin" length="middle" direction="pwr"/>
+<pin name="PWM" x="-17.78" y="7.62" visible="pin" length="middle" direction="in"/>
+<pin name="CSOUT" x="-17.78" y="5.08" visible="pin" length="middle" direction="out"/>
+<pin name="DIR" x="-17.78" y="2.54" visible="pin" length="middle" direction="in"/>
+<pin name="BRAKE" x="-17.78" y="0" visible="pin" length="middle" direction="in"/>
+<pin name="TACHO" x="-17.78" y="-2.54" visible="pin" length="middle" direction="out"/>
+<pin name="FF1" x="-17.78" y="-5.08" visible="pin" length="middle" direction="out"/>
+<pin name="FF2" x="-17.78" y="-7.62" visible="pin" length="middle" direction="out"/>
+<pin name="RESET" x="-17.78" y="-10.16" visible="pin" length="middle" direction="in"/>
+<pin name="COAST" x="-17.78" y="-12.7" visible="pin" length="middle" direction="in"/>
+<pin name="DIRO" x="-17.78" y="-15.24" visible="pin" length="middle" direction="out"/>
+<pin name="VCC1" x="17.78" y="10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC2" x="17.78" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC3" x="17.78" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC4" x="17.78" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC5" x="17.78" y="0" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND1" x="17.78" y="-2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND2" x="17.78" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND3" x="17.78" y="-7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND4" x="17.78" y="-10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND5" x="17.78" y="-12.7" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<text x="-12.7" y="17.78" size="2.54" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="2.54" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RC13-BLDC-DRIVER">
+<gates>
+<gate name="G$1" symbol="RC13-BLDC-DRIVER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RC13-BLDC-DRIVER">
+<connects>
+<connect gate="G$1" pin="BRAKE" pad="LOGIC6"/>
+<connect gate="G$1" pin="COAST" pad="LOGIC11"/>
+<connect gate="G$1" pin="CSOUT" pad="LOGIC4"/>
+<connect gate="G$1" pin="DIR" pad="LOGIC5"/>
+<connect gate="G$1" pin="DIRO" pad="LOGIC12"/>
+<connect gate="G$1" pin="FF1" pad="LOGIC8"/>
+<connect gate="G$1" pin="FF2" pad="LOGIC9"/>
+<connect gate="G$1" pin="GND1" pad="PWR6"/>
+<connect gate="G$1" pin="GND2" pad="PWR7"/>
+<connect gate="G$1" pin="GND3" pad="PWR8"/>
+<connect gate="G$1" pin="GND4" pad="PWR9"/>
+<connect gate="G$1" pin="GND5" pad="PWR10"/>
+<connect gate="G$1" pin="GNDL1" pad="LOGIC1"/>
+<connect gate="G$1" pin="GNDL2" pad="LOGIC2"/>
+<connect gate="G$1" pin="PWM" pad="LOGIC3"/>
+<connect gate="G$1" pin="RESET" pad="LOGIC10"/>
+<connect gate="G$1" pin="TACHO" pad="LOGIC7"/>
+<connect gate="G$1" pin="VCC1" pad="PWR1"/>
+<connect gate="G$1" pin="VCC2" pad="PWR2"/>
+<connect gate="G$1" pin="VCC3" pad="PWR3"/>
+<connect gate="G$1" pin="VCC4" pad="PWR4"/>
+<connect gate="G$1" pin="VCC5" pad="PWR5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -15431,30 +15431,30 @@ Source: www.kingbright.com</description>
 <wire x1="48" y1="0" x2="48" y2="30" width="0.127" layer="51"/>
 <wire x1="48" y1="30" x2="0" y2="30" width="0.127" layer="51"/>
 <wire x1="0" y1="30" x2="0" y2="0" width="0.127" layer="51"/>
-<pad name="LOGIC7" x="10.835" y="26.77" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC8" x="12.105" y="24.23" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC9" x="13.375" y="26.77" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC10" x="14.645" y="24.23" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC11" x="15.915" y="26.77" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC12" x="17.185" y="24.23" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC6" x="9.565" y="24.23" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC5" x="8.295" y="26.77" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC4" x="7.025" y="24.23" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC3" x="5.755" y="26.77" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC2" x="4.485" y="24.23" drill="0.8" diameter="1.3"/>
-<pad name="LOGIC1" x="3.215" y="26.77" drill="0.8" diameter="1.3"/>
-<pad name="PWR5" x="39.535" y="1.83" drill="0.8" diameter="1.3"/>
-<pad name="PWR6" x="38.265" y="4.37" drill="0.8" diameter="1.3"/>
-<pad name="PWR4" x="40.805" y="4.37" drill="0.8" diameter="1.3"/>
-<pad name="PWR3" x="42.075" y="1.83" drill="0.8" diameter="1.3"/>
-<pad name="PWR2" x="43.345" y="4.37" drill="0.8" diameter="1.3"/>
-<pad name="PWR1" x="44.615" y="1.83" drill="0.8" diameter="1.3"/>
-<pad name="PWR7" x="36.995" y="1.83" drill="0.8" diameter="1.3"/>
-<pad name="PWR8" x="35.725" y="4.37" drill="0.8" diameter="1.3"/>
-<pad name="PWR9" x="34.455" y="1.83" drill="0.8" diameter="1.3"/>
-<pad name="PWR10" x="33.185" y="4.37" drill="0.8" diameter="1.3"/>
-<hole x="1.4" y="25" drill="1.2"/>
-<hole x="46.4" y="3.6" drill="1.2"/>
+<pad name="LOGIC7" x="10.835" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC8" x="12.105" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC9" x="13.375" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC10" x="14.645" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC11" x="15.915" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC12" x="17.185" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC6" x="9.565" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC5" x="8.295" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC4" x="7.025" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC3" x="5.755" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC2" x="4.485" y="26.77" drill="0.8" diameter="1.3"/>
+<pad name="LOGIC1" x="3.215" y="24.23" drill="0.8" diameter="1.3"/>
+<pad name="PWR5" x="39.535" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR6" x="38.265" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR4" x="40.805" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR3" x="42.075" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR2" x="43.345" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR1" x="44.615" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR7" x="36.995" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR8" x="35.725" y="1.83" drill="0.8" diameter="1.3"/>
+<pad name="PWR9" x="34.455" y="4.37" drill="0.8" diameter="1.3"/>
+<pad name="PWR10" x="33.185" y="1.83" drill="0.8" diameter="1.3"/>
+<hole x="1.4" y="26" drill="1.2"/>
+<hole x="46.4" y="2.6" drill="1.2"/>
 <text x="23.7" y="16.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="23.7" y="15.4" size="1.27" layer="25" align="top-center">&gt;VALUE</text>
 <text x="9" y="22" size="1.27" layer="51" align="top-center">LOGIC</text>
