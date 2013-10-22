@@ -15630,6 +15630,7 @@ Source: www.kingbright.com</description>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="470uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -15738,6 +15739,7 @@ Source: www.kingbright.com</description>
 <instance part="+3V2" gate="G$1" x="-38.1" y="38.1"/>
 <instance part="P+8" gate="1" x="208.28" y="165.1"/>
 <instance part="GND15" gate="1" x="208.28" y="134.62"/>
+<instance part="C3" gate="G$1" x="198.12" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -16025,6 +16027,10 @@ Source: www.kingbright.com</description>
 <wire x1="177.8" y1="116.84" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
 <junction x="177.8" y="116.84"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+<wire x1="198.12" y1="119.38" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
+<junction x="187.96" y="116.84"/>
 </segment>
 <segment>
 <pinref part="LED_5V" gate="G$1" pin="A"/>
@@ -16356,6 +16362,10 @@ Source: www.kingbright.com</description>
 <wire x1="137.16" y1="129.54" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
 <junction x="137.16" y="129.54"/>
 <pinref part="BAT_15V" gate="G$1" pin="P$1"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="198.12" y1="127" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="129.54" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
+<junction x="187.96" y="129.54"/>
 </segment>
 </net>
 <net name="BALL" class="0">
